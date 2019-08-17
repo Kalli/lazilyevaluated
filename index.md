@@ -23,6 +23,6 @@ Dance music related musings, experiments and data digging. Produced by [Karl Try
 
     A limited edition record with no permanent owner or home making its way across the world through friendly exchanges.
 
-* [Essential Mix Statistics](/Essential-Mix-Statistics/)
+* [Essential Mix Statistics](/essential-mix-statistics/)
 
     Digging into the data of the BBC Radio 1 Essential Mix.
