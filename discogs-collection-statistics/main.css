@@ -1,0 +1,391 @@
+
+:root {
+    --main-text-color: #ececec;
+    --main-bg-color: #222831;
+    --first-bg-color: #30475e;
+    --a-color: #c1a57b;
+    --ui-item-color: #c1a57b;
+}
+
+.main{
+    height:200px;
+}
+
+body{
+    font-size: 16px;
+    color: var(--main-text-color);
+    background-color: var(--main-bg-color);
+}
+
+a{
+    color: var(--a-color);
+}
+
+text {
+    fill: var(--main-text-color);
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+.background {
+    background: url('montage.jpg') no-repeat center;
+}
+
+.fade-in{
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+
+.fade-out{
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    opacity: 0;
+}
+
+#intro, #outro{
+    min-height: 100vh;
+    background-size: cover;
+    padding: 10rem 1rem 1rem 1rem;
+}
+
+.jumbotron p{
+    font-size: 1.2em;
+}
+
+.small, small {
+    font-size: 65%;
+}
+
+.interlude{
+    height: 10vh;
+    width: 100%;
+    background-attachment: fixed!important;
+}
+
+.intro-text, .outro-text{
+    background: var(--main-bg-color);
+    border-radius: 15px;
+    margin-top: 5rem;
+}
+
+.artist-list{
+    list-style: none;
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+.toggle {
+    cursor: pointer;
+}
+
+.release-thumb-12{
+    min-width: 150px;
+    min-height: 150px;
+}
+
+.release-thumb-6{
+    min-width: 65px;
+    min-height: 65px;
+}
+
+.release-thumb-4{
+    min-width: 25px;
+    min-height: 25px;
+}
+
+.get-started {
+    margin-top: 50px;
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
+.scroll-arrow {
+    animation: bounce 0.8s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.content{
+    margin-top: 1.5em;
+    font-size: 130%;
+}
+
+.google-visualization-tooltip{
+    color: #000000;
+    border-radius: 30px;
+}
+
+.chart-tooltip{
+    min-width: 200px;
+}
+
+.chart-tooltip h4{
+    text-align: center;
+    width: 100%;
+}
+
+.label{
+    margin: 5px;
+}
+
+.chart-controls label{
+    margin-right: 10px;
+}
+.chart-controls{
+    font-size: 0.8em;
+    padding-bottom: 1em;
+}
+
+.haves-wants-tooltip {
+    max-width: 250px;
+    min-width: 250px;
+    font-size: 1.5em;
+    padding: 10px;
+    display: flex;
+}
+
+.haves-wants-tooltip .thumbnail{
+    border: 0;
+    flex-basis: auto; /* default value */
+    flex-grow: 1;
+}
+
+.haves-wants-tooltip span{
+    margin-right: 1em;
+}
+
+.artist-tooltip{
+    max-width: 500px;
+    max-height: 500px;
+    font-size: 1.5em;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.artist-tooltip .artist{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.artist-tooltip .releases{
+    overflow-y: auto;
+}
+
+.content h2{
+    text-align: center;
+}
+
+.genres-tooltip{
+    background:#fff;
+    padding:10px;
+}
+
+.genres-tooltip ul, .decade-tooltip div, .country-tooltip ol, .gender-tooltip ol{
+    max-height: 500px;
+    max-width: 500px;
+    overflow-y: auto;
+    font-size: 1em;
+}
+
+/* Hides the default Google Chart Tooltips on the Map chart */
+#artists-by-country .google-visualization-tooltip-item-list > li:nth-of-type(1){
+    display: none;
+}
+
+#artists-by-country .google-visualization-tooltip{
+    width: 400px;
+    font-size: 14px !important;
+}
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row.display-flex > [class*='col-'] {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.show{
+    display: flex!important;
+}
+
+.content{
+    margin: 0 auto;
+}
+
+.section{
+    padding-top: 8rem;
+}
+
+.section h2{
+    margin-bottom: 0;
+    margin-top: 30px;
+    padding-bottom: 0;
+}
+
+.navbar{
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    border-bottom: 2px solid var(--first-bg-color);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar a{
+    color: var(--a-color);
+}
+
+.navbar h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    position: fixed;
+    margin-bottom: 20px;
+    bottom: 0;
+}
+
+.scroller .step .content{
+    background-color: var(--main-bg-color);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* react-burger-menu - https://github.com/negomi/react-burger-menu#styling*/
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 24px;
+    height: 20px;
+    left: 24px;
+    top: 24px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+    background: var(--ui-item-color);
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+    background: var(--main-text-color);
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+    background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+    background-color: var(--first-bg-color);
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+    z-index: 100;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+    fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+    display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/*!* mobile *!*/
+@media (max-device-width: 991.98px) {
+    body{
+        font-size: 20px;
+    }
+    .genres-tooltip ul, .decade-tooltip div, .country-tooltip ol, .gender-tooltip ol{
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 991.98px) {
+    .navbar{
+        height: 5vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+
+    .bm-burger-button {
+        position: fixed;
+        width: 24px;
+        height: 20px;
+        left: 24px;
+        top: 45px;
+    }
+
+    .bm-menu {
+        background-color: var(--first-bg-color);
+        padding: 1.5em 0.5em 0;
+        font-size: 1.4em;
+        z-index: 100;
+    }
+
+    .scroller{
+        /* Allow clicking on the graphic layer underneath*/
+        pointer-events: none;
+    }
+
+    .scroller .step{
+		min-height: 50vh;
+        margin-bottom: 50vh !important;
+        pointer-events: none;
+    }
+    .scroller .step .content {
+        pointer-events: auto;
+    }
+    text {
+        font-size: 0.9em;
+    }
+}

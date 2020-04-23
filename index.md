@@ -19,6 +19,10 @@ Dance music related musings, experiments and data digging. Produced by [Karl Try
 
 ## Projects
 
+* [Discogs Collection Statistics](/discogs-collection-statistics/)
+
+    Exploring the Most Collected and Coveted Records on Discogs
+
 * [The Travelling Record](/travelling-record/)
 
     A limited edition record with no permanent owner or home making its way across the world through friendly exchanges.
