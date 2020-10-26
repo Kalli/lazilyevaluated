@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/clubster-analysis/static/css/main.90832af2.chunk.css",
+    "main.js": "/clubster-analysis/static/js/main.19ce6297.chunk.js",
+    "main.js.map": "/clubster-analysis/static/js/main.19ce6297.chunk.js.map",
+    "runtime-main.js": "/clubster-analysis/static/js/runtime-main.d9b80ec9.js",
+    "runtime-main.js.map": "/clubster-analysis/static/js/runtime-main.d9b80ec9.js.map",
+    "static/js/2.b753c415.chunk.js": "/clubster-analysis/static/js/2.b753c415.chunk.js",
+    "static/js/2.b753c415.chunk.js.map": "/clubster-analysis/static/js/2.b753c415.chunk.js.map",
+    "index.html": "/clubster-analysis/index.html",
+    "precache-manifest.faa5822f6efd03826def8d0019997e18.js": "/clubster-analysis/precache-manifest.faa5822f6efd03826def8d0019997e18.js",
+    "service-worker.js": "/clubster-analysis/service-worker.js",
+    "static/css/main.90832af2.chunk.css.map": "/clubster-analysis/static/css/main.90832af2.chunk.css.map",
+    "static/js/2.b753c415.chunk.js.LICENSE.txt": "/clubster-analysis/static/js/2.b753c415.chunk.js.LICENSE.txt",
+    "static/media/sections.scss": "/clubster-analysis/static/media/montage.319fe11c.jpg",
+    "static/media/steps.md": "/clubster-analysis/static/media/steps.bc0e7744.md"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9b80ec9.js",
+    "static/js/2.b753c415.chunk.js",
+    "static/css/main.90832af2.chunk.css",
+    "static/js/main.19ce6297.chunk.js"
+  ]
+}
