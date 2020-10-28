@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6234c41cec1abf9fc016c12eb757d69c",
+    "revision": "51e2f6360bc2377448aec24b653de308",
     "url": "/clubster-analysis/index.html"
   },
   {
-    "revision": "28138d7b94c36009d1b8",
-    "url": "/clubster-analysis/static/css/main.90832af2.chunk.css"
+    "revision": "42ee119300f2cc5086f8",
+    "url": "/clubster-analysis/static/css/main.39b9f9de.chunk.css"
   },
   {
     "revision": "3aafdd7aa01a325658f3",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/clubster-analysis/static/js/2.b753c415.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "28138d7b94c36009d1b8",
-    "url": "/clubster-analysis/static/js/main.19ce6297.chunk.js"
+    "revision": "42ee119300f2cc5086f8",
+    "url": "/clubster-analysis/static/js/main.57e018d3.chunk.js"
   },
   {
     "revision": "f0668673fa5232b76ff6",
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/clubster-analysis/static/media/montage.319fe11c.jpg"
   },
   {
-    "revision": "bc0e7744b18f4f6cfcfb174181b925c7",
-    "url": "/clubster-analysis/static/media/steps.bc0e7744.md"
+    "revision": "e487d99fce31d94c311cc3a9c8b04d5f",
+    "url": "/clubster-analysis/static/media/steps.e487d99f.md"
   }
 ]);
