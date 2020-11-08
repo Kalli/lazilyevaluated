@@ -19,6 +19,10 @@ Dance music related musings, experiments and data digging. Produced by [Karl Try
 
 ## Projects
 
+* [Clubster Analysis](/clubster-analysis/)
+
+    Cluster analysis on the 2019 line ups of the most popular nightclubs on [Resident Advisor](https://www.residentadvisor.net/events).
+    
 * [Discogs Collection Statistics](/discogs-collection-statistics/)
 
     Exploring the Most Collected and Coveted Records on Discogs

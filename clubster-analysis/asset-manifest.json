@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/clubster-analysis/static/css/main.0bd4dcab.chunk.css",
-    "main.js": "/clubster-analysis/static/js/main.91d98e26.chunk.js",
-    "main.js.map": "/clubster-analysis/static/js/main.91d98e26.chunk.js.map",
+    "main.css": "/clubster-analysis/static/css/main.9422c1f5.chunk.css",
+    "main.js": "/clubster-analysis/static/js/main.fa6602e2.chunk.js",
+    "main.js.map": "/clubster-analysis/static/js/main.fa6602e2.chunk.js.map",
     "runtime-main.js": "/clubster-analysis/static/js/runtime-main.d9b80ec9.js",
     "runtime-main.js.map": "/clubster-analysis/static/js/runtime-main.d9b80ec9.js.map",
-    "static/js/2.31f35204.chunk.js": "/clubster-analysis/static/js/2.31f35204.chunk.js",
-    "static/js/2.31f35204.chunk.js.map": "/clubster-analysis/static/js/2.31f35204.chunk.js.map",
+    "static/js/2.d1e96e3f.chunk.js": "/clubster-analysis/static/js/2.d1e96e3f.chunk.js",
+    "static/js/2.d1e96e3f.chunk.js.map": "/clubster-analysis/static/js/2.d1e96e3f.chunk.js.map",
     "index.html": "/clubster-analysis/index.html",
-    "precache-manifest.b177a90959e066e2a62e995443c903a0.js": "/clubster-analysis/precache-manifest.b177a90959e066e2a62e995443c903a0.js",
+    "precache-manifest.559b9580af1d5241ff03756bcc7cf46a.js": "/clubster-analysis/precache-manifest.559b9580af1d5241ff03756bcc7cf46a.js",
     "service-worker.js": "/clubster-analysis/service-worker.js",
-    "static/css/main.0bd4dcab.chunk.css.map": "/clubster-analysis/static/css/main.0bd4dcab.chunk.css.map",
-    "static/js/2.31f35204.chunk.js.LICENSE.txt": "/clubster-analysis/static/js/2.31f35204.chunk.js.LICENSE.txt",
-    "static/media/sections.scss": "/clubster-analysis/static/media/montage.319fe11c.jpg",
-    "static/media/steps.md": "/clubster-analysis/static/media/steps.699ddab4.md"
+    "static/css/main.9422c1f5.chunk.css.map": "/clubster-analysis/static/css/main.9422c1f5.chunk.css.map",
+    "static/js/2.d1e96e3f.chunk.js.LICENSE.txt": "/clubster-analysis/static/js/2.d1e96e3f.chunk.js.LICENSE.txt",
+    "static/media/sections.scss": "/clubster-analysis/static/media/montage.92bde53b.jpg",
+    "static/media/steps.md": "/clubster-analysis/static/media/steps.973a96e0.md"
   },
   "entrypoints": [
     "static/js/runtime-main.d9b80ec9.js",
-    "static/js/2.31f35204.chunk.js",
-    "static/css/main.0bd4dcab.chunk.css",
-    "static/js/main.91d98e26.chunk.js"
+    "static/js/2.d1e96e3f.chunk.js",
+    "static/css/main.9422c1f5.chunk.css",
+    "static/js/main.fa6602e2.chunk.js"
   ]
 }
