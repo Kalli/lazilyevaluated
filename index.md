@@ -4,19 +4,6 @@ Dance music related musings, experiments and data digging. Produced by [Karl Try
 
 ---
 
-## Latest posts: 
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }} </a>
-    </li>
-  {% endfor %}
-</ul>
-
-
---- 
-
 ## Projects
 
 * [Clubster Analysis](/clubster-analysis/)
